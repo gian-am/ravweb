@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: Poppins;
+}
+
+body {
+  background-color: #2A2A2B;
+}
+
+header {
+  background-color: #222223;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 13px 10px;
+}
+
+.nav_links li {
+  font-size: 10px;
+  display: inline;
+  padding: 0 5px;
+}
+
+.nav_links a {
+  color: white;
+  text-decoration: none;
+}
+
+.logo {
+  text-shadow: 0 0 20px #ff008c;
+  color: white;
+  margin-right: auto;
+}
+
+.logo span {
+  color: #f51159;
+}
+
+.btn button {
+  font-size: 10px;
+  padding-top: 5px;
+  border: none;
+  color: white;
+  background-color: #f51159;
+  box-shadow: 0px 1px 20px #ff008c;
+  padding: 5px;
+  border-radius: 40px;
+}
+
+a:active {
+  color: #f51159;
+}
+
+/*----- content ------*/
+.container {
+  padding: 50px;
+  color: white;
+}
+
+.container span {
+  text-shadow: 0 0 20px #ff008c;
+  color: #f51159;
+}
+
+.container p {
+  margin: 10px;
+}
+
+footer {
+  width: 100vw;
+  text-align: center;
+  bottom: 0;
+  position: fixed;
+  font-size: 10px;
+  color: white;
+}
+
+hr {
+  margin: 0 10%;
+  border: 1px solid white;
+}
+
+footer i {
+  padding: 3px 5px;
+  font-size: 150%;
+}
+
+/*---- register ----*/
+.container_4 {
+  color: white;
+  padding: 8%;
+}
+
+.container_4 label {
+  display: flex;
+}
+
+.container_4 h3 {
+  text-shadow: 0 0 30px #ff008c;
+  color: #f51159;
+}
+
+.container_4 input[type=reset],
+input[type=submit] {
+  margin-right: 10px;
+  margin-top: 10px;
+  font-size: 10px;
+  border: none;
+  color: white;
+  background-color: #f51159;
+  box-shadow: 0px 1px 20px #ff008c;
+  padding: 5px;
+  border-radius: 40px;
+}
+
+ input, textarea{
+  background-color: #212121;
+  border: 2px solid white;
+  border-radius: 5px;
+}
+
+ input:focus {
+  color: white;
+  background-color: #212121;
+  outline-color: #f51159;
+  box-shadow: 0px 0px 15px #f51159;
+  transition: .1s;
+  transition-property: box-shadow;
+}
+
+/*---container 2---*/
+.container_2 {
+  padding: 10% 5%;
+  color: white;
+}
+
+.container_2 span,
+h5 {
+  text-shadow: 0 0 20px #ff008c;
+  color: #f51159;
+}
+
+.container_2 img {
+  width: 150px;
+  float: right;
+  border-radius: 5px;
+  box-shadow: 0px 0px 60px #ff008c;
+  margin: 30px 20px;
+}
+
+
+/*--- skills ---*/
+.container_3{
+  padding: 40px;
+  color: white;
+  display: flex;
+}
+.html{
+  width: 150px;
+  margin-right: 20px;
+  height: 200px;
+  font-size: 7px;
+  border: solid 3px #f51159;
+  border-radius: 5px;
+  padding: 5px;
+}
+.css{
+  width: 150px;
+  height: 200px;
+  font-size: 7px;
+  border: solid 3px #f51159;
+  border-radius: 5px;
+  padding: 1px;
+
+}
+/*----contact---*/
+.fill-form{
+  padding: 15%;
+  color: white;
+}
+.fill-form h1{
+  color: #f51159;
+}
+
+.fill-form input[type=text]{
+  width: 40%;
+}
+
+.fill-form input{
+  color: white;
+  width: 90%;
+  margin: 10px 11px;
+}
+
+.send-message{
+    font-size: 10px;
+  padding-top: 5px;
+  border: none;
+  color: white;
+  background-color: #f51159;
+  box-shadow: 0px 0px 20px #ff008c;
+  padding: 4px;
+  border-radius: 40px;
+}
+
+textarea:focus{
+  color: white;
+  background-color: #212121;
+  outline-color: #f51159;
+  box-shadow: 0px 0px 15px #f51159;
+  transition: .1s;
+  transition-property: box-shadow;
+}
